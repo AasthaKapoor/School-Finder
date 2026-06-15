@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download-schools": "node scripts/download-gias.js",
+    "download-ofsted": "node scripts/download-ofsted.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
+    "adm-zip": "^0.5.17",
+    "axios": "^1.17.0",
+    "cors": "^2.8.6",
+    "csv-parse": "^7.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1"
+  }
+}

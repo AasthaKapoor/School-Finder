@@ -1,0 +1,11 @@
+node_modules/
+.env
+dist/
+client/dist/
+
+# Downloaded/generated data — run npm run download-schools / download-ofsted to populate
+data/*.csv
+data/*.zip
+data/schools.json
+data/ofsted.json
+data/summaries-cache.json
